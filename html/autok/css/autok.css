@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide|outline|Trirong');
+
+body {
+    background-image: radial-gradient(circle, black, white);
+}
+
+.navbar {
+    background-image: linear-gradient(to bottom, black, red);
+}
+
+#cim {
+    font-size: 36px;
+    font-family: 'Audiowide';
+    color: aliceblue;
+}
+
+.kereses {
+    width: 60px;
+    height: 60px;
+    display: block;
+    align-items: top;
+    margin-left: 915px;
+}
+
+h1 {
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Audiowide';
+    text-shadow: 5px 5px 5px black;
+}
+
+h2 {
+    color: aliceblue;
+    font-family: 'Audiowide';
+    text-shadow: 5px 5px 5px rgb(241, 8, 8);
+}
+
+h3 {
+    color: aliceblue;
+    font-family: 'Audiwide';
+    text-shadow: 5px 5px 5px rgb(241, 8, 8);
+}
+
+.szoveg {
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Trirong';
+    font-size: 25px;
+    text-shadow: 5px 5px 5px black;
+}
+
+.fodoboz {
+    display: flex;
+}
+
+.baldoboz {
+    box-shadow: rgba(240, 8, 8, 0.25) 0px 54px 55px, rgba(240, 8, 8, 0.25) 0px -12px 30px, rgba(240, 8, 8, 0.25) 0px 4px 6px, rgba(240, 8, 8, 0.25) 0px 12px 13px, rgba(240, 8, 8, 0.25) 10px 10px 10px;
+    /*https://getcssscan.com/css-box-shadow-examples*/
+    background-image: linear-gradient(to right, black, red);
+    float: left;
+    height: 600px;
+    width: 1000px;
+    top: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.markalabel {
+    color: rgb(252, 46, 46);
+    font-family: 'Audiowide';
+    text-shadow: 2px 5px 5px black;
+    font-size: 30px;
+    margin-left: 260px;
+    margin-top: 130px;
+}
+#marka {
+    border: 3px solid rgb(0, 27, 11);
+    background-color: rgb(192, 192, 192);
+    font-family: 'Audiowide';
+    width: 380px;
+    height: 40px;
+    font-size: 20px;
+    color: rgb(252, 46, 46);
+}
+.tipuslabel {
+    color: rgb(252, 46, 46);
+    font-family: 'Audiowide';
+    text-shadow: 2px 5px 5px black;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 275px;
+}
+#tipus {
+    border: 3px solid rgb(0, 27, 11);
+    font-family: 'Audiowide';
+    background-color: rgb(192, 192, 192);
+    width: 380px;
+    height: 40px;
+    font-size: 20px;
+    color: rgb(252, 46, 46);
+}
+.szinlabel {
+    color: rgb(252, 46, 46);
+    font-family: 'Audiowide';
+    text-shadow: 2px 5px 5px black;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 295px;
+}
+#szin {
+    border: 3px solid rgb(0, 27, 11);
+    font-family: 'Audiowide';
+    background-color: rgb(192, 192, 192);
+    width: 380px;
+    height: 40px;
+    font-size: 20px;
+    color: rgb(252, 46, 46);
+}
+.felszlabel {
+    color: rgb(252, 46, 46);
+    font-family: 'Audiowide';
+    text-shadow: 2px 5px 5px black;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 139px;
+}
+#felsz {
+    border: 3px solid rgb(0, 27, 11);
+    font-family: 'Audiowide';
+    background-color: rgb(192, 192, 192);
+    width: 380px;
+    height: 40px;
+    font-size: 20px;
+    color: rgb(252, 46, 46);
+}
+#gomb {
+    box-shadow: rgb(7, 7, 7) 0px 54px 55px, rgba(7, 7, 7) 0px -12px 30px, rgba(7, 7, 7) 0px 4px 6px, rgba(7, 7, 7) 0px 12px 13px, rgba(7, 7, 7) 10px 10px 10px;
+    /*https://getcssscan.com/css-box-shadow-examples*/
+    border: 3px solid rgb(0, 27, 11);
+    background-color: rgb(192, 192, 192);
+    text-shadow: 2px 5px 5px black;
+    color: rgb(252, 46, 46);
+    font-family: 'Audiowide';
+    font-size: 30px;
+    margin-top: 60px;
+    margin-left: 485px;
+}
+
+.jobbdoboz {
+    box-shadow: rgba(240, 8, 8, 0.25) 0px 54px 55px, rgba(240, 8, 8, 0.25) 0px -12px 30px, rgba(240, 8, 8, 0.25) 0px 4px 6px, rgba(240, 8, 8, 0.25) 0px 12px 13px, rgba(240, 8, 8, 0.25) 10px 10px 10px;
+    /*https://getcssscan.com/css-box-shadow-examples*/
+    background-image: url(../images/Többi_kép/loading.gif);
+    float: right;
+    height: 600px;
+    width: 620px;
+    top: 264px;
+}
+.vegeszoveg {
+    color: aliceblue;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Trinong';
+    text-shadow: 5px 5px 5px rgb(207, 83, 83);
+    padding-top: 120px;
+}
+.kep {
+    position: relative;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 580px;
+    height: 400px;
+}
+
+.alsodoboz {
+    box-shadow: rgba(12, 8, 240, 0.25) 0px 54px 55px, rgba(12, 8, 240, 0.25) 0px -12px 30px, rgba(12, 8, 240, 0.25) 0px 4px 6px, rgba(12, 8, 240, 0.25) 0px 12px 13px, rgba(12, 8, 240, 0.25) 10px 10px 10px;
+    /*https://getcssscan.com/css-box-shadow-examples*/
+    background-image: linear-gradient(to right, black, red);
+    position: relative;
+    width: 1720px;
+    height: 670px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.motor {
+    color: aliceblue;
+    text-shadow: 5px 5px 5px black;
+}
+.teljesitmeny {
+    color: aliceblue;
+    text-shadow: 5px 5px 5px black;
+}
+.gyorsulas {
+    color: aliceblue;
+    text-shadow: 5px 5px 5px black;
+}
+.vegsebesseg {
+    color: aliceblue;
+    text-shadow: 5px 5px 5px black;
+}
+.fogyasztas {
+    color: aliceblue;
+    text-shadow: 5px 5px 5px black;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 270px;
+    perspective: 1000px;
+}
+
+#elso {
+    margin-left: 36px;
+    padding-top: 20px;
+}
+#masodik {
+    margin-left: 372px;
+    margin-top: -250px;
+    position: relative;
+}
+#harmadik {
+    margin-left: 708px;
+    margin-top: -270px;
+    position: relative;
+}
+#negyedik {
+    margin-left: 1044px;
+    margin-top: -270px;
+    position: relative;
+}
+#ötödik {
+    margin-left: 1380px;
+    margin-top: -270px;
+    position: relative;
+}
+#hatodik {
+    margin-left: 36px;
+    position: relative;
+    padding-top: 60px;
+}
+#hetedik {
+    margin-left: 372px;
+    position: relative;
+    margin-top: -210px;
+}
+#nyolcadik {
+    margin-left: 708px;
+    position: relative;
+    margin-top: -270px;
+}
+#kilencedik {
+    margin-left: 1044px;
+    position: relative;
+    margin-top: -270px;
+}
+#tizedik {
+    margin-left: 1380px;
+    position: relative;
+    margin-top: -270px;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,.flip-card-back {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    background-color: #bbb;
+    color: black;
+}
+
+.flip-card-back {
+    background-image: linear-gradient(to right, black, grey);
+    color: white;
+    transform: rotateY(180deg);
+}

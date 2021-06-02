@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+
+<html lang="hu">
+
+<head>
+  <meta charset="utf-8">
+  <title>VG Autószalon - Autók</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/autok.css">
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/autok.js"></script>
+
+</head>
+
+<body>
+  <nav class="navbar navbar-light justify-content-center">
+    <a class="navbar-brand" href="#">
+      <img src="images/Többi_kép/merci.gif" width="45" height="45" class="d-inline-block align-top">
+      <b id="cim">VG Autószalon</b>
+      <img src="images/Többi_kép/audi.gif" width="45" height="45" class="d-inline-block align-top">
+    </a>
+  </nav>
+  <br>
+  <img src="images/Többi_kép/kereses.gif" class="kereses">
+  <h1>Kínálatunk</h1>
+  <p class="szoveg">Itt tud szétnézni a széleskörű kínálatunk között.</p>
+  <br>
+
+  <div class="fodoboz">
+    <div class="baldoboz">
+      <form id="urlap">
+        <label for="marka" class="markalabel">Márka:</label>
+        <select id="marka">
+          <option hidden></option>
+          <option>Mercedes-Benz</option>
+          <option>Audi</option>
+        </select><br>
+        <label for="tipus" class="tipuslabel">Típus:</label>
+        <select id="tipus">
+          <option hidden></option>
+        </select><br>
+        <label for="szin" class="szinlabel">Szín:</label>
+        <select id="szin">
+          <option hidden></option>
+          <option>Fekete</option>
+          <option>Szürke</option>
+          <option>Fehér</option>
+        </select><br>
+        <label for="felsz" class="felszlabel">Felszereltség:</label>
+        <select id="felsz">
+          <option hidden></option>
+          <option>Basic</option>
+          <option>Midrange</option>
+          <option>Full</option>
+        </select><br>
+        <input type="button" value="Keresés" id="gomb">
+      </form>
+    </div>
+
+    <div class="jobbdoboz">
+      <div class="kep">
+        <img src="" id="autokep">
+      </div>
+      <p class="vegeszoveg" id="ar"></p>
+    </div>
+  </div>
+  <div class="alsodoboz">
+    <div class="flip-card" id="elso">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="images/Kartya_kepek/c220d.jpg" alt="Avatar" style="width:300px;height:300px;">
+        </div>
+        <div class="flip-card-back">
+          <h2>Mercedes-Benz</h2>
+          <h3>C220d</h3>
+          <p class="motor">Motor: 2.0 TDI</p>
+          <p class="teljesitmeny">Teljesítmény: 194LE(143kw)</p>
+          <p class="gyorsulas">Gyorsulás 0-100: 7,7s</p>
+          <p class="vegsebesseg">Végsebesség: 228 km/h</p>
+          <p class="fogyasztas">Fogyasztás: 6,2 l/100km</p>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card" id="masodik">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="images/Kartya_kepek/e300de.jpg" alt="Avatar" style="width:300px;height:300px;">
+        </div>
+        <div class="flip-card-back">
+          <h2>Mercedes-Benz</h2>
+          <h3>E300de</h3>
+          <p class="motor">Motor: 2.0 TDI</p>
+          <p class="teljesitmeny">Teljesítmény: 194LE(143kw)</p>
+          <p class="gyorsulas">Gyorsulás 0-100: 5,9s</p>
+          <p class="vegsebesseg">Végsebesség: 250 km/h</p>
+          <p class="fogyasztas">Fogyasztás: 8,5 l/100km</p>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card" id="harmadik">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="images/Kartya_kepek/gle400d.jpg" alt="Avatar" style="width:300px;height:300px;">
+        </div>
+        <div class="flip-card-back">
+          <h2>Mercedes-Benz</h2>
+          <h3>GLE400d</h3>
+          <p class="motor">Motor: 3.0 TDI</p>
+          <p class="teljesitmeny">Teljesítmény: 333LE(245kw)</p>
+          <p class="gyorsulas">Gyorsulás 0-100: 5,7s</p>
+          <p class="vegsebesseg">Végsebesség: 245 km/h</p>
+          <p class="fogyasztas">Fogyasztás: 8,7 l/100km</p>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card" id="negyedik">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="images/Kartya_kepek/s450.jpg" alt="Avatar" style="width:300px;height:300px;">
+        </div>
+        <div class="flip-card-back">
+          <h2>Mercedes-Benz</h2>
+          <h3>S450</h3>
+          <p class="motor">Motor: 5.0(V8)</p>
+          <p class="teljesitmeny">Teljesítmény: 340LE(250kw)</p>
+          <p class="gyorsulas">Gyorsulás 0-100: 5,9s</p>
+          <p class="vegsebesseg">Végsebesség: 250 km/h</p>
+          <p class="fogyasztas">Fogyasztás: 11,1 l/100km</p>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card" id="ötödik">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="images/Kartya_kepek/gt63.jpg" alt="Avatar" style="width:300px;height:300px;">
+        </div>
+        <div class="flip-card-back">
+          <h2>Mercedes-Benz</h2>
+          <h3>GT63</h3>
+          <p class="motor">Motor: 4.0(V8)</p>
+          <p class="teljesitmeny">Teljesítmény: 639LE(470kw)</p>
+          <p class="gyorsulas">Gyorsulás 0-100: 3,2s</p>
+          <p class="vegsebesseg">Végsebesség: 315 km/h</p>
+          <p class="fogyasztas">Fogyasztás: 11,3 l/100km</p>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card" id="hatodik">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="images/Kartya_kepek/a3.jpg" alt="Avatar" style="width:300px;height:300px;">
+        </div>
+        <div class="flip-card-back">
+          <h2>Audi</h2>
+          <h3>A3</h3>
+          <p class="motor">Motor: 1.5 TFSI</p>
+          <p class="teljesitmeny">Teljesítmény: 150LE(110kw)</p>
+          <p class="gyorsulas">Gyorsulás 0-100: 8,2s</p>
+          <p class="vegsebesseg">Végsebesség: 224 km/h</p>
+          <p class="fogyasztas">Fogyasztás: 5,5 l/100km</p>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card" id="hetedik">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="images/Kartya_kepek/a6.jpg" alt="Avatar" style="width:300px;height:300px;">
+        </div>
+        <div class="flip-card-back">
+          <h2>Audi</h2>
+          <h3>A6</h3>
+          <p class="motor">Motor: 3.0 TDI</p>
+          <p class="teljesitmeny">Teljesítmény: 340LE(250kw)</p>
+          <p class="gyorsulas">Gyorsulás 0-100: 5,5s</p>
+          <p class="vegsebesseg">Végsebesség: 250 km/h</p>
+          <p class="fogyasztas">Fogyasztás: 7,6 l/100km</p>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card" id="nyolcadik">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="images/Kartya_kepek/a8l.jpg" alt="Avatar" style="width:300px;height:300px;">
+        </div>
+        <div class="flip-card-back">
+          <h2>Audi</h2>
+          <h3>A8L</h3>
+          <p class="motor">Motor: 3.0 TDI</p>
+          <p class="teljesitmeny">Teljesítmény: 286LE(210kw)</p>
+          <p class="gyorsulas">Gyorsulás 0-100: 5,9s</p>
+          <p class="vegsebesseg">Végsebesség: 250 km/h</p>
+          <p class="fogyasztas">Fogyasztás: 5,8 l/100km</p>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card" id="kilencedik">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="images/Kartya_kepek/q7.jpg" alt="Avatar" style="width:300px;height:300px;">
+        </div>
+        <div class="flip-card-back">
+          <h2>Audi</h2>
+          <h3>Q7</h3>
+          <p class="motor">Motor: 3.0 TDI</p>
+          <p class="teljesitmeny">Teljesítmény: 286LE(210kw)</p>
+          <p class="gyorsulas">Gyorsulás 0-100: 6,3s</p>
+          <p class="vegsebesseg">Végsebesség: 241 km/h</p>
+          <p class="fogyasztas">Fogyasztás: 6,5 l/100km</p>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card" id="tizedik">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="images/Kartya_kepek/r8.jpg" alt="Avatar" style="width:300px;height:300px;">
+        </div>
+        <div class="flip-card-back">
+          <h2>Audi</h2>
+          <h3>R8</h3>
+          <p class="motor">Motor: 5.2 TFSi</p>
+          <p class="teljesitmeny">Teljesítmény: 610LE(455kw)</p>
+          <p class="gyorsulas">Gyorsulás 0-100: 3,2s</p>
+          <p class="vegsebesseg">Végsebesség: 330 km/h</p>
+          <p class="fogyasztas">Fogyasztás: 12,3 l/100km</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="lablec">
+    <footer class="page-footer font-small blue pt-4">
+      <div class="container-fluid text-center text-md-left">
+        <div class="footer-copyright text-center py-3">© 2021 Copyright:
+          <a href="/index.html" id="link">VG Autószalon</a>
+          <h5 id="nev">Varga Zsolt - Gönczi Tibor</h5>
+          <p id="datum">2021.06.02</p>
+        </div>
+    </footer>
+  </div>
+</body>
+
+</html>

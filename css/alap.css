@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide|outline|Trirong');
+
+body {
+    background-image: url(../images/fooldali_hatterkep.gif);
+}
+
+
+#cim {
+    font-size: 36px;
+    font-family: 'Audiowide';
+    color: aliceblue;
+}
+
+.focim {
+    text-align: center;
+    font-family: 'Audiowide';
+    color: aliceblue;
+}
+
+.foszoveg {
+    text-align: center;
+    font-size: 26px;
+    font-family: 'outline';
+    color: aliceblue;
+}
+
+#fodoboz {
+    position: relative;
+    top: 120px;
+    padding-left: 70px;
+}
+
+.kartya {
+    position: relative;
+    padding-right: 50px;
+}
+
+.card {
+    box-shadow: rgba(240, 8, 8, 0.25) 0px 54px 55px, rgba(240, 8, 8, 0.25) 0px -12px 30px, rgba(240, 8, 8, 0.25) 0px 4px 6px, rgba(240, 8, 8, 0.25) 0px 12px 13px, rgba(240, 8, 8, 0.25) 10px 10px 10px;
+    /*https://getcssscan.com/css-box-shadow-examples*/
+    border: 3px white solid;
+    background-color: rgb(133, 131, 131);
+    font-family: 'Audiowide';
+    height: 380px;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-text {
+    text-align: center;
+}
+
+#gomb1 {
+    box-shadow: rgb(7, 7, 7) 0px 54px 55px, rgba(7, 7, 7) 0px -12px 30px, rgba(7, 7, 7) 0px 4px 6px, rgba(7, 7, 7) 0px 12px 13px, rgba(7, 7, 7) 10px 10px 10px;
+    /*https://getcssscan.com/css-box-shadow-examples*/
+    margin-bottom: -58px;
+    margin-left: 55px;
+    background-color: rgb(252, 46, 46);
+    border: black 1px solid;
+}
+
+#gomb2 {
+    box-shadow: rgb(7, 7, 7) 0px 54px 55px, rgba(7, 7, 7) 0px -12px 30px, rgba(7, 7, 7) 0px 4px 6px, rgba(7, 7, 7) 0px 12px 13px, rgba(7, 7, 7) 10px 10px 10px;
+    /*https://getcssscan.com/css-box-shadow-examples*/
+    margin-left: 55px;
+    background-color: rgb(252, 46, 46);
+    border: black 1px solid;
+}
+
+#gomb3 {
+    box-shadow: rgb(7, 7, 7) 0px 54px 55px, rgba(7, 7, 7) 0px -12px 30px, rgba(7, 7, 7) 0px 4px 6px, rgba(7, 7, 7) 0px 12px 13px, rgba(7, 7, 7) 10px 10px 10px;
+    /*https://getcssscan.com/css-box-shadow-examples*/
+    margin-bottom: -58px;
+    margin-left: 55px;
+    background-color: rgb(252, 46, 46);
+    border: black 1px solid;
+}
+
+.lablec {
+    position: relative;
+    bottom: -242px;
+    color: aliceblue;
+}

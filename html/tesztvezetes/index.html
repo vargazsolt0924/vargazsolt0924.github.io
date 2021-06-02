@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang="hu">
+
+<head>
+    <meta charset="utf-8">
+    <title>VG Autószalon - Tesztvezetés</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/tesztvezetes.css">
+    <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-light justify-content-center">
+        <a class="navbar-brand" href="#">
+            <img src="images/merci.gif" width="45" height="45" class="d-inline-block align-top">
+            <b id="cim">VG Autószalon</b>
+            <img src="images/audi.gif" width="45" height="45" class="d-inline-block align-top">
+        </a>
+    </nav>
+    <br>
+    <img src="images/kerek.gif" class="kerek">
+    <h1>Tesztvezetés</h1>
+    <p class="szoveg">Itt tud időpontot foglalni a tesztvezetésre,
+        ha megadja a következő adatokat.</p>
+    <div class="fodoboz">
+        <form id="urlap">
+            <label for="marka" class="markalabel">Márka:</label>
+            <select id="marka">
+                <option hidden></option>
+                <option>Mercedes-Benz</option>
+                <option>Audi</option>
+            </select><br>
+            <label for="tipus" class="tipuslabel">Típus:</label>
+            <select id="tipus">
+                <option hidden></option>
+                <option>C220d limousine</option>
+                <option>E300de 4MATIC Plug-in hybrid T-modell</option>
+                <option>S450 4MATIC Mild hybrid</option>
+                <option>GLE400d 4MATIC</option>
+                <option>AMG GT63 4MATIC+</option>
+                <option>A3 SE 35 TDI limousine</option>
+                <option>A6 allroad quattro 55 TFSI S tronic</option>
+                <option>A8L 50 TDI quattro tiptronic</option>
+                <option>Q7 50 TDI quattro tiptronic</option>
+                <option>R8 coupé V10 quattro S tronic</option>
+            </select><br>
+            <label for="idopont" class="idopontlabel">Időpont:</label>
+            <select id="idopont">
+                <option hidden></option>
+                <option>2021.06.03.</option>
+                <option>2021.06.13.</option>
+                <option>2021.06.15.</option>
+                <option>2021.06.18.</option>
+                <option>2021.06.25.</option>
+            </select><br>
+            <label for="nev" class="nevlabel">Az Ön neve:</label>
+            <input type="text" value="" id="nev"><br>
+            <label for="email" class="emaillabel">Email:</label>
+            <input type="text" value="" id="email"><br>
+            <label for="telefonszam" class="telefonlabel">Telefonszám:</label>
+            <input type="number" value="06" id="telefonszam"><br>
+            <label for="vanejogsi" class="vanejogsilabel">Van jogosítványod?</label>
+            <select id="vanejogsi">
+                <option hidden></option>
+                <option>Igen</option>
+                <option>Nem</option>
+            </select>
+            <label for="jogositvany" class="jogositvanylabel">Jogosítvány száma:</label>
+            <input type="number" value="" id="jogositvany"><br>
+            <label for="autoszalon" class="autoszalonlabel">Autószalon:</label>
+            <select id="autoszalon">
+                <option hidden></option>
+                <option>VG Autószalon</option>
+            </select><br>
+            <input type="button" value="Foglalás" id="gomb">
+        </form>
+    </div>
+    <div class="mellekdoboz">
+        <div class="kep">
+            <img src="images/tesztvezetes+580x400/q7.png">
+        </div>
+        <p class="vegeszoveg">A további információkat emailben elküldtük.</p>
+    </div>
+    <script type="text/javascript" src="js/tesztvezetes.js"></script>
+    
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang="hu">
+
+<head>
+    <meta charset="utf-8">
+    <title>VG Autószalon - Összehasonlítás</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/osszehasonlit.css">
+    <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-light justify-content-center">
+        <a class="navbar-brand" href="#">
+            <img src="images/merci.gif" width="45" height="45" class="d-inline-block align-top">
+            <b id="cim">VG Autószalon</b>
+            <img src="images/audi.gif" width="45" height="45" class="d-inline-block align-top">
+        </a>
+    </nav>
+    <br>
+    <img src="images/loading.gif" class="toltes">
+    <h1>Összehasonlítás</h1>
+    <p class="szoveg">Itt tudsz két autót összehasonlítani.</p>
+    <div class="fodoboz">
+        <h1 class="">Válassz ki egyet-egyet!</h1>
+        <div class="bal">
+            <form class="urlap1" name="urlap1">
+                <label for="marka1" class="markalabel1">Márka:</label>
+                <select id="marka1">
+                    <option hidden></option>
+                    <option>Mercedes-Benz</option>
+                    <option>Audi</option>
+                </select><br>
+                <label for="tipus1" class="tipuslabel1">Típus:</label>
+                <select id="tipus1" >
+                    <option hidden></option>
+                </select>
+            </form>
+        </div>
+        <div class="kozep">
+            <input type="button" id="gomb" value="Összehasonlít"><br>
+        </div>
+        <div class="jobb">
+            <form name="urlap2">
+                <label for="marka2" class="markalabel2">Márka:</label>
+                <select id="marka2">
+                    <option hidden></option>
+                    <option>Mercedes-Benz</option>
+                    <option>Audi</option>
+                </select><br>
+                <label for="tipus2" class="tipuslabel2">Típus:</label>
+                <select id="tipus2">
+                    <option hidden></option>
+                </select>
+            </form>
+        </div>
+    </div>
+    <div class="lista">
+        <div class="balkep">
+            <img src="images/3_kepek/a6.jpg" id="kep1">
+        </div>
+        <div class="jobbkep">
+            <img src="images/3_kepek/gl400d.jpg" id="kep2">
+        </div>
+        <div class="ballista">
+            <h3>Tudnivalók a fenti autóról:</h3>
+            <p class="motor" id="motor1">Motor: </p>
+            <p class="teljesitmeny" id="teljesitmeny1">Teljesitmény: </p>
+            <p class="gyorsulas" id="gyorsulas1">Gyorsulás: </p>
+            <p class="vegsebesseg" id="vegsebesseg1">Végsebesség: </p>
+            <p class="fogyasztas" id="fogyasztas1">Fogyasztás: </p>
+        </div>
+        <div class="jobblista">
+            <h3>Tudnivalók a fenti autóról:</h3>
+            <p class="motor" id="motor2">Motor: </p>
+            <p class="teljesitmeny" id="teljesitmeny2">Teljesitmény: </p>
+            <p class="gyorsulas" id="gyorsulas2">Gyorsulás: </p>
+            <p class="vegsebesseg" id="vegsebesseg2">Végsebesség: </p>
+            <p class="fogyasztas" id="fogyasztas2">Fogyasztás: </p>
+        </div>
+    </div>
+    <div class="lablec">
+        <footer class="page-footer font-small blue pt-4">
+            <div class="container-fluid text-center text-md-left">
+                <div class="footer-copyright text-center py-3">© 2021 Copyright:
+                    <a href="/index.html" id="link">VG Autószalon</a>
+                    <h5 id="nev">Varga Zsolt - Gönczi Tibor</h5>
+                    <p id="datum">2021.06.02</p>
+                </div>
+        </footer>
+    </div>
+    <script src="js/osszehasonlit.js"></script>
+</body>
+
+</html>
