@@ -4,11 +4,12 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Project Munka - VG Autószalon</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/alap.css">
   <script src="js/bootstrap.min.js"></script>
-
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
@@ -32,7 +33,7 @@
             <img src="images/auto.jpg" class="card-img-top" alt="első">
             <div class="card-body">
               <h5 class="card-title">Autók</h5>
-              <p class="card-text">Több információt szerezhet az autókról.</p>
+              <p class="card-text">Itt több információt szerezhet az autókról.</p>
               <a href="html/autok/index.html" class="btn btn-primary" id="gomb1">Ide kattints!</a>
             </div>
           </div>
@@ -60,13 +61,28 @@
       </div>
     </div>
   </div>
-  <div class="lablec">
+  <div class="lablec"> 
     <footer class="page-footer font-small blue pt-4">
       <div class="container-fluid text-center text-md-left">
         <div class="footer-copyright text-center py-3">© 2021 Copyright:
           <a href="index.html" id="link">VG Autószalon</a>
           <h5 id="nev">Varga Zsolt - Gönczi Tibor</h5>
           <p id="datum">2021.06.02</p>
+          <div class="w3-container">
+            <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-red">Kapcsolatok</button>
+          
+            <div id="id01" class="w3-modal">
+              <div class="w3-modal-content w3-black">
+                <div class="w3-container">
+                  <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright w3-red">&times;</span>
+                  <p id="telefonszam">Telefonszám: 06307229596</p>
+                  <p id="email">email: vgautoszalon@gmail.com</p>
+                  <p id="hely">Tartózkodási hely: Nyíregyháza Sikló utca 96. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
         </div>
     </footer>
   </div>
@@ -74,4 +90,3 @@
 </body>
 
 </html>
-    

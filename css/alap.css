@@ -83,3 +83,17 @@ body {
     bottom: -242px;
     color: aliceblue;
 }
+
+#link{
+    color: royalblue;
+}
+
+#telefonszam{
+    color: red;
+}
+#email{
+    color: red;
+}
+#hely{
+    color: red;
+}

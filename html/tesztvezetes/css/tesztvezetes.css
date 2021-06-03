@@ -220,17 +220,23 @@ h1 {
     top: 264px;
     margin-right: 100px;
 }
+.kocsi{
+    color: aliceblue;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Trinong';
+    text-shadow: 5px 5px 5px rgb(207, 83, 83);
+    padding-top: 70px;
+}
 .vegeszoveg {
     color: aliceblue;
     font-size: 25px;
     text-align: center;
     font-family: 'Trinong';
     text-shadow: 5px 5px 5px rgb(207, 83, 83);
-    padding-top: 120px;
+    padding-top: 0px;
 }
 .kep {
-    box-shadow: rgba(240, 8, 8, 0.25) 0px 54px 55px, rgba(240, 8, 8, 0.25) 0px -12px 30px, rgba(240, 8, 8, 0.25) 0px 4px 6px, rgba(240, 8, 8, 0.25) 0px 12px 13px, rgba(240, 8, 8, 0.25) 10px 10px 10px;
-    /*https://getcssscan.com/css-box-shadow-examples*/
     position: relative;
     margin-left: 20px;
     margin-top: 20px;

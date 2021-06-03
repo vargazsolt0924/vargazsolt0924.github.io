@@ -133,6 +133,7 @@ function beallit(){
         var newOptionValue = document.createTextNode(tipusok[i].nev);
         newOption.appendChild(newOptionValue);
         document.forms['urlap1']['tipus1'].insertBefore(newOption,document.forms['urlap1']['tipus1'].lastChild);
+        /*https://www.youtube.com/watch?v=GBDMr24O_rs*/
     }
 }
 
@@ -148,6 +149,7 @@ function marka1Beallit(){
                 var newOptionValue = document.createTextNode(tipusok[i].nev);
                 newOption.appendChild(newOptionValue);
                 document.forms['urlap1']['tipus1'].insertBefore(newOption,document.forms['urlap1']['tipus1'].lastChild);
+                /*https://www.youtube.com/watch?v=GBDMr24O_rs*/
             }
         }
     }else{
@@ -157,6 +159,7 @@ function marka1Beallit(){
                 var newOptionValue = document.createTextNode(tipusok[i].nev);
                 newOption.appendChild(newOptionValue);
                 document.forms['urlap1']['tipus1'].insertBefore(newOption,document.forms['urlap1']['tipus1'].lastChild);
+                /*https://www.youtube.com/watch?v=GBDMr24O_rs*/
             }
         }
     }

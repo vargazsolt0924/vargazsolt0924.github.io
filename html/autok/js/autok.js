@@ -1367,6 +1367,7 @@ function selectFeltolt(){
         var newOptionValue = document.createTextNode(tipusok[i].nev);
         newOption.appendChild(newOptionValue);
         document.forms['urlap']['tipus'].insertBefore(newOption,document.forms['urlap']['tipus'].lastChild);
+        /*https://www.youtube.com/watch?v=GBDMr24O_rs*/
     }
 }
 
@@ -1382,6 +1383,7 @@ function markaFeltolt(){
                 var newOptionValue = document.createTextNode(tipusok[i].nev);
                 newOption.appendChild(newOptionValue);
                 document.forms['urlap']['tipus'].insertBefore(newOption,document.forms['urlap']['tipus'].lastChild);
+                /*https://www.youtube.com/watch?v=GBDMr24O_rs*/
             }
         }
     }else{
@@ -1391,6 +1393,7 @@ function markaFeltolt(){
                 var newOptionValue = document.createTextNode(tipusok[i].nev);
                 newOption.appendChild(newOptionValue);
                 document.forms['urlap']['tipus'].insertBefore(newOption,document.forms['urlap']['tipus'].lastChild);
+                /*https://www.youtube.com/watch?v=GBDMr24O_rs*/
             }
         }
     }
